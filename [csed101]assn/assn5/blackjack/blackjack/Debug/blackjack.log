@@ -1,0 +1,6 @@
+﻿  assn5.c
+c:\users\administrator\desktop\포항공대\프밍\어싸인5\blackjack\blackjack\assn5.c(10): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator\desktop\포항공대\프밍\어싸인5\blackjack\blackjack\assn5.c(190): warning C4020: 'wins': 실제 매개 변수가 너무 많습니다.
+c:\users\administrator\desktop\포항공대\프밍\어싸인5\blackjack\blackjack\assn5.c(7): warning C4101: 'op' :참조되지 않은 지역 변수입니다.
+  blackjack.vcxproj -> C:\Users\Administrator\Desktop\포항공대\프밍\어싸인5\blackjack\Debug\blackjack.exe
+  blackjack.vcxproj -> C:\Users\Administrator\Desktop\포항공대\프밍\어싸인5\blackjack\Debug\blackjack.pdb (Full PDB)

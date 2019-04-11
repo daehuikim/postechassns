@@ -1,0 +1,10 @@
+command,usage,condition,description
+append,append <svg-tag-name> [n],(root-selection || single-selection) -> (single-selection || multiple-selection),Add a new SVG object named <svg-tag-name> tag
+select,select [<svg-tag-name>] [n],(root-selection || single-selection) -> (single-selection || multiple-selection),"Select one SVG object (index = n) or all SGV objects named <svg-tag-name> among children. (If you command only ""select"") Print the current selection"
+remove,remove,(single-selection || multiple-selection) -> (single-selection || root-selection),Remove all selected SGV objects
+end,end,(single-selection || multiple-selection || root-selection) -> (single-selection || root-selection),Select the parent SGV object of the current selection
+exit,exit,None,Exit this program
+cattr,cattr <svg-attr-name> <svg-attr-value>,None,Add or create an attribute named <svg-attr-name> and having the <svg-attr-value> to the SVG Object(s) of the current selection
+tattr,tattr <x-multiplier> <y-multiplier>,None,Translate the SVG object(s) of the current selection
+print,print [output-file-name],None,"Print a HTML file named [output-file-name]. (If you command only ""print"") Print a HTML file to standard output"
+help,help [command-name],none,"Print [command-name] command help.  (If you command only ""print"") Print command's usages "
